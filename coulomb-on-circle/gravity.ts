@@ -8,11 +8,11 @@ export class Gravity {
       usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST,
     });
     
-    // @ts-ignore
-    document.addEventListener('devicemotion', (event: DeviceMotionEvent) => {
-      const { x, y } = event.accelerationIncludingGravity;
-      device.queue.writeBuffer(this.buffer, 0, new Float32Array([x, y]));
-    });
+    // // @ts-ignore
+    // document.addEventListener('devicemotion', (event: DeviceMotionEvent) => {
+    //   const { x, y } = event.accelerationIncludingGravity;
+    //   device.queue.writeBuffer(this.buffer, 0, new Float32Array([x, y]));
+    // });
   }
 }
 
