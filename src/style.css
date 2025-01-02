@@ -1,0 +1,24 @@
+:root {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  width: 100lvw;
+  height: 100lvh;
+}
+
+#canvas {
+  display: block;
+  width: 100lvw;
+  height: 100lvh;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100lvw;
+  height: 100lvh;
+}
